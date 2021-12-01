@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      <div style="display: inline-block">
+        <img class="menu" (click)= "home" routerLink="/home" src="https://cdn1.iconfinder.com/data/icons/black-round-web-icons/100/round-web-icons-black-47-512.png" width="45" height="45" alt="">
+         
+       </div>
+   
+       <div style="display: inline-block">
+       <p>TM<br> TICKETS</p></div>
+     
+     <div style="display: inline-block">
+      <img class="logo" (click)= "home" routerLink="/home" src="https://jeopardylabs.com/ugc/2020-08-27%2F4e8d9b44-3f1d-4d1b-ab1f-3d05f07dac97-TnC.png" width="45" height="45" alt="">
+       
+     </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h2>Saved Card Details</h2>
+
+  <div>
+    <div>Card Number: <br><input class="i" type="text" value="1234 1234 1234 1234"></div>
+    <div>Card Holder Name: <br><input class="i" type="text" value="One Commun Name"></div>
+    <div>VCC Code: <br><input class="small" type="text" value="123"></div>
+    <div>Expiry Date: <br><input class="small" type="text" value="01/22"></div>
+  </div>
+  <ion-button (click)="ticketFinal()" routerLink="/.Pay">Confirm and Pay</ion-button>
+
+</ion-content>

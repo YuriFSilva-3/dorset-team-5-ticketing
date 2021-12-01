@@ -1,0 +1,58 @@
+
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.button{
+  text-align: center;
+  position: unset;
+  left: 0;
+  right: 0;
+  top: 500px;
+  transform: translateY(-50%);
+
+};
+p{
+  font-size: 13px;
+    color: #CF3535;
+    text-align: center;
+    float: left;
+    width: max-content;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+};
+.logo{
+  float: right;
+};
+.shape{
+  position: absolute;
+width: 226px;
+height: 300px;
+left: 27px;
+top: 180px;
+border-bottom-right-radius: 55px;
+border-top-left-radius: 55px;
+background: #CF3535;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+ };
+ ion-content{
+   align-items: center;
+ };

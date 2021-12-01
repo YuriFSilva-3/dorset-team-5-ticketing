@@ -1,0 +1,93 @@
+h1{
+    text-align: center;
+};
+.box{
+    background-color: #b3e6ff;
+    padding: 10px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 5px;
+    padding: 10px;
+    
+};
+.box input{
+    width: 51px;
+    padding: 5px 10px;
+    border-radius: 	5px;
+    margin: 0 10px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid;
+    align-content: center
+};
+
+
+.box .lbl{
+    margin-right: 15px;
+    margin-top: 15px;
+};
+.box .lbl1{
+    margin-top: 17px;
+    margin-right: 10px;
+    margin-left: 5px
+};
+ .ticketbx {
+     background-color: #66d9ff;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+     border-radius: 8px;
+     border: 1px solid;
+     box-shadow:2px 2px 8px  rgba($color: #000000, $alpha: 1.0);
+ };
+
+.d{
+    font-weight: bold;
+    background-color: #66d9ff;;
+    border: 1px solid;
+    border-radius: 12px;
+    box-shadow: 2px 2px 6px rgba($color: #000000, $alpha: 1.0);
+    margin: 10;
+     width: 250px;
+     margin-left: 10px;
+     margin-bottom: 10px;
+     text-align: center;
+     align-content: center;
+     
+ };
+
+ .qty{
+    text-align: center;
+     width: 35px;
+     height: 35px;
+     background-color: white;
+     margin-top: 5px;
+     font-size: xx-large
+     
+ };
+
+ p{
+    font-size: 13px;
+    color: #CF3535;
+    text-align: center;
+    float: left;
+    width: max-content;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+  };
+  .logo{
+    float: right;
+  };
+  .next {
+    text-align: center;
+    position: unset;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  };
+  

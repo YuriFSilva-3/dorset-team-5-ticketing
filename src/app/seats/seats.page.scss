@@ -1,0 +1,44 @@
+p{
+    font-size: 13px;
+    color: #CF3535;
+    text-align: center;
+    float: left;
+    width: max-content;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+  };
+  .logo{
+    float: right;
+  };
+  .seat {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    border: solid 2px black;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    float: left;
+};
+
+.reserved {
+    background-color: #CF3535;;
+};
+
+
+.selected {
+    background-color: green;
+};
+
+.button{
+    text-align: center;
+    position: fixed;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+};
+h2{
+  text-align: center;
+};
