@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Style } from '@capacitor/status-bar';
-import * as $ from 'jquery'
 import { BookingPage } from '../booking/booking.page';
+import * as $ from 'jquery'
 
 @Component({
   selector: 'app-seats',
