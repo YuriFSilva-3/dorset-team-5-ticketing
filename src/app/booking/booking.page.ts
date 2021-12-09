@@ -58,6 +58,7 @@ export class BookingPage implements OnInit {
     this.totalTicketPrice = (this.adultPrice * this.adultTicket) + (this.childPrice * this.childTicket)
 
   }
+  
 
 }
 
