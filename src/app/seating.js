@@ -39,10 +39,6 @@ function initJquerySeating() {
     })
 
 
-
-
-
-
 }
 
 function ShowSeatCount() {
